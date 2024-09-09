@@ -1,7 +1,7 @@
 <template>
 	<MainLayout>
-		<div id="IndexPage" class="mt-4 max-w-[1200px] mx-auto px-2">
-			IndexPage
+		<div id="IndexPage" class="mt-4 max-w-[1440px] mx-auto px-2">
+			
 		</div>
 	</MainLayout>
 </template>
