@@ -22,6 +22,7 @@
     "nuxt": "^3.13.0",
     "nuxt-lodash": "^2.5.3",
     "pinia": "^2.2.2",
+    "pinia-plugin-persistedstate": "^4.0.1",
     "prisma": "^5.19.1",
     "vue": "latest",
     "vue-router": "latest"

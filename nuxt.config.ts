@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   pages: true,
   modules: [
     '@pinia/nuxt',
+    // '@pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/tailwindcss',
     // '@nuxtjs/supabase',
     '@nuxt/icon',
