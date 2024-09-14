@@ -1,5 +1,5 @@
 <template>
-    <div id="MainLayout" class="w-full fixed z-50">
+    <div id="MainLayout" class="w-full fixed z-50 top-0">
         <!-- TopMenu -->
         <div id="TopMenu" class="w-full bg-[#fafafa] border-b md:block hidden">
             <ul class="flex items-center justify-end text-xs text-[#333] font-light px-2 h-10 bg-[#fafafa] max-w-[1440px]">
@@ -134,7 +134,7 @@
     
     <Loading v-if="userStore.isLoading"/>
     
-    <div class="lg:pt-[150px] md:pt-[130px] pt-[80px]"></div>
+    <div class="lg:pt-[120px] md:pt-[100px] pt-[80px]"></div>
     <slot></slot>
     
     <Footer v-if="!userStore.isLoading"/>
