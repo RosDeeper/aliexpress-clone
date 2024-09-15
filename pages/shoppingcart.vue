@@ -19,7 +19,7 @@
 
             <div v-else class="md:flex gap-4 justify-between mx-auto w-full">
                 <div class="md:w-[65%]">
-                    <div class="rounded-lg p-4">
+                    <div class="rounded-lg p-4 bg-white">
                         <div class="text-2xl font-bold mb-2">
                             Shopping Cart (0)
                         </div>
@@ -43,7 +43,7 @@
                 <div class="md:hidden block my-4"></div>
 
                 <div class="md:w-[35%]">
-                    <div id="Summary" class="rounded-lg p-4">
+                    <div id="Summary" class="rounded-lg p-4 bg-white">
                         <div class="text-2xl font-bold mb-2">Summary</div>
                         <div class="flex items-center justify-between my-4">
                             <div class="font-semibold">Total</div>
@@ -61,7 +61,7 @@
                         </button>
                     </div>
 
-                    <div id="PaymentProtection" class="rounded-lg p-4 mt-4">
+                    <div id="PaymentProtection" class="rounded-lg p-4 mt-4 bg-white">
                         <div class="text-lg font-semibold mb-2">Payment methods</div>
                         <div class="flex items-center justify-start gap-8 my-4">
                             <div v-for="card in cards">
