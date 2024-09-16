@@ -135,7 +135,7 @@
     <Loading v-if="userStore.isLoading"/>
     
     <div class="lg:pt-[120px] md:pt-[100px] pt-[80px]"></div>
-    <div class="py-7 bg-stone-100">
+    <div class="py-7">
         <slot></slot>
     </div>
     
