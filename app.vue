@@ -18,6 +18,7 @@
     const route = useRoute()
 
     //let windowWidth = ref(process.client ? window.innerWidth : '')
+    let windowWidth = ref('')
 
     onMounted(() => {
         userStore.isLoading = false
