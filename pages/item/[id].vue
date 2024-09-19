@@ -93,6 +93,7 @@
     onBeforeMount(async () => {
         product.value = await useFetch(`/api/prisma/get-product-by-id/${route.params.id}`)
     })
+
     watchEffect(() => {
         if(product.value && product.value.data) {
             currentImg.value = product.value.data.url
@@ -112,7 +113,7 @@
         let res = false
 
         userStore.cart.forEach((prod) => {
-            if(route.params.id === prod.id) {
+            if(route.params.id == prod.id) {
                 res = true
             }
         })
